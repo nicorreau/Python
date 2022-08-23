@@ -32,3 +32,5 @@ descuento = 0.6
 total = ( precio* frutas ) * (1-descuento)
 
 print (f"Total: {total}")
+
+# un cambio en el archivo variables.py

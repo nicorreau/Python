@@ -10,4 +10,13 @@ Por ejemplo:
 •	Proporciona un valor entre 0 y 10: 7
 •	Bien """
 
+calificacion = float(input("Ingrese una calificacion"))
 
+if 8<calificacion<10:
+    print("Excelente")
+elif 7<calificacion<8:
+    print("Bien")
+elif 0<calificacion<6:
+    print("Reprobado")
+else:
+    print("Valor incorrecto")

@@ -67,3 +67,48 @@ diccionarios = {
 
 for item,valor in diccionarios.items():
     print(f"clave: {item},  valor:{valor} ")
+    
+for llave, valor in diccionarios.items():
+    print(llave, valor)
+
+for llave in diccionarios.keys():
+    print(llave)
+
+for valor in diccionarios.values():
+    print(valor)
+
+diccionario = {
+    
+        1:          'valores conbinados',
+        'COLTIS':   'Colombian TI Software',
+        'IDE':      'Entorno de Desarrollo Integrado',
+        'OOP':      'Objec Oriented Programming'
+}
+
+print(diccionario)
+print(len(diccionario))
+print(diccionario['IDE'])
+print(diccionario.get('OOP'))
+#cambiar un valor por otro
+diccionario['COLTIS'] = 'colombian ti sas'
+print(diccionario)
+
+diccionario[1] = 'cambie valor conbinado con la key numerica'
+print(diccionario)
+
+for key, value in diccionario.items():
+    print(key,value)
+
+for key in diccionario.keys():
+    print(key)
+
+for value in diccionario.values():
+    print(value)
+
+diccionario.pop('OOP')
+print(diccionario)
+diccionario.clear()
+print(diccionario)
+diccionario['IDE']='Netbeans'
+print(diccionario)
+
